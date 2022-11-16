@@ -1,0 +1,68 @@
+* {
+    background-color: rgb(168, 152, 131) ;
+
+
+}
+
+.word {
+    color:rgb(0, 0, 0);
+    font-size: 36px;
+    position: relative;
+    left: 410px;
+    top: 20px;
+    
+}
+
+
+input {
+    color:rgb(0, 0, 0);
+    font-size: 36px;
+    position: relative;
+    left: 410px;
+}
+
+button {
+    color:whitesmoke;
+    font-size: 36px;
+    position: relative;
+    left: 410px;
+}
+
+ /* form {
+    color:whitesmoke;
+    font-size: 36px;
+    position: relative;
+    left: 180px;
+    top: 90px;
+    
+} */
+
+.message {
+    color:rgb(0, 0, 0);
+    font-size: 36px;
+    position: relative;
+    left: 160px;
+    top: 90px;
+    
+}
+
+
+
+.lost {
+    color:rgb(58, 60, 60);
+    font-size: 36px;
+    position: relative;
+    left: 280px;
+    top: 90px;
+    
+}
+
+ul {
+    color:#9bd1f7;
+    font-size: 36px;
+    position: relative;
+    left: 180px;
+    top: 90px;
+    
+}
+

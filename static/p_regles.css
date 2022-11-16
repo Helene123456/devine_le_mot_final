@@ -1,0 +1,63 @@
+
+* {
+    background-color: rgb(168, 152, 131);
+    
+
+     }
+
+
+h1,h2 {
+    
+    position: relative; 
+    left: 580px;
+    top: 10px; 
+    
+    
+     }
+
+h3,h4,h5 {
+    
+    position: relative; 
+    left: 10px;
+    top: 10px; 
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    
+
+     }
+
+h3 {
+    color: rgb(0, 0, 0);
+
+     }
+
+
+
+h2 {
+    color: #9bd1f7;
+    
+
+     }
+
+h5 {
+color: rgb(0, 0, 0);
+    position: relative; 
+    left: 40px;
+
+     }
+h4 {
+    color: #9bd1f7;
+    position: relative; 
+    left: 70px;
+
+     }
+
+a {
+        color: white;
+        font-size: 25px;
+        position: relative;
+        left: 820px;
+        
+         }   

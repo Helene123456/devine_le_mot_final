@@ -1,0 +1,33 @@
+
+* {
+background-color: rgb(168, 152, 131);
+position: relative; 
+left: 160px;
+top: 60px; 
+
+
+ }
+
+ h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    
+     }
+
+
+     
+h2 {
+        color: #9bd1f7;
+        font-size: 40px;
+        
+         }
+
+
+a {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 480px;
+    
+     }
+

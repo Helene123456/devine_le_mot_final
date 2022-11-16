@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='p_regles.css') }}">
+</head>
+<body>
+    <h1>Trouve le mot caché</h1>
+    <h2>                    en proposant des lettres</h2>
+    <br/>
+
+    <h3> Quand la lettre que tu proposes est présente dans le mot, celle-ci s'inscrit.</h3>
+    <h5>Sache que </h5>
+    <h4>     si cette lettre est présente plusieurs fois dans le mot, elle s'inscrira plusieurs fois.   </h4>
+    <h4>     e, é, è, ê sont considérées comme des lettres différentes. </h4>
+    
+
+    <h3> Quand la lettre que tu proposes n'est pas présente dans le mot à deviner, tu perds une tentative 
+        et "P E R D U !" s'affichera au fur et à mesure des tentatives perdues.</h3>
+    <h5>Sache que </h5>
+    <h4>  tu peux "te tromper" 6 fois. </h4>
+    
+
+    <h3>Les lettres que tu as proposées sont répertoriées en bas à droite au fur et à mesure de la partie.</h3>
+    
+
+    <h3> Une difficulté supplémentaire est qu'il est bien possible que tu n'entendes pas souvent le mot à deviner, peut-être même que tu ne le connais pas.
+        C'est l'occasion d'enrichir son vocabulaire ! </h3>
+    
+
+    <h3> Tu as deviné le mot ? Tu auras alors la définition. <br/> 
+        Tu n'as pas trouvé ? Le mot apparaîtra mais sans la définition. Retiens-le ; peut-êre qu'il reviendra une prochaine fois ! </h3>
+
+<br/>
+</body>
+</html><a href= "/game" > Clique ici pour commencer une partie hic et nunc !</a>

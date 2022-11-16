@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='perdu.css') }}">
+
+</head>
+
+<body>
+
+    <h1>Ooh, tu n'as pas trouvé</h1>
+
+    <p> Le mot qui était à deviner est "<strong>{{ rep }}</strong>".</p>
+
+    <p> Retiens-le ; peut-être qu'il reviendra une prochaine fois ;-)</p>
+
+ 
+
+    <br />
+
+ 
+
+    <form action="/game"  method="GET">
+
+       
+
+        <button>Rejouer</button>
+
+     </form>
+
+    <form action="/if3/" method="GET">
+
+        <button>Relire les règles et rejouer</button>
+
+    </form>
+
+ 
+
+</body>
+
+</html>

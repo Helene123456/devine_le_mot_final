@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(168, 152, 131);
+
+     }
+
+h1 {
+    color: whitesmoke;
+    position: relative; 
+    left: 460px;
+    top: 90px; 
+    font-size: 45px;
+
+}
+
+p {
+    color : #9bd1f7;    
+    position: relative; 
+    left: 360px;
+    top: 90px; 
+    font-size: 38px;
+    
+    }
+
+strong {
+        color:rgb(0, 0, 0);
+        
+        
+    }
+
+.definition {
+    color:rgb(0, 0, 0);
+    
+    
+}
+
+button {
+
+    position: relative; 
+    left: 580px;
+    top: 200px;
+    font-size: 28px;
+        
+}
